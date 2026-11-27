@@ -1,0 +1,18 @@
+{
+  "name": "api-emojis",
+  "version": "1.0.0",
+  "description": "API REST d'Emojidex : collection d'emojis, jeu de pierre-feuille-ciseaux, achat et ouverture de boosters, données stockées dans des fichiers JSON",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "reset": "node src/reset.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

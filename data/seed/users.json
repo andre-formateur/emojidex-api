@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "username": "Camille",
+    "email": "demo@emojidex.fr",
+    "password": "fa5a4491b5e05994fc47f2a63dd95b19:35f9331a824f7019811beaa3451810a3075cef6f7750d9f182abbd4b7ce3571c057c3eecbec41910fb88cd6b88686c3e8ef209de189f580ec811778bd1e29c15",
+    "creditsTenths": 123
+  },
+  {
+    "id": 2,
+    "username": "Lucas",
+    "email": "lucas@emojidex.fr",
+    "password": "e945b9ddad6ab64894c2d1a94a4dba32:60ff19bfdb483d60d347635c3f76d23addf40855eb5fc108d4558aca0d506e778630115be3c7f42afc5d541bd435f421341b2d43f86ae2f014c54910f0ba77be",
+    "creditsTenths": 50
+  }
+]

@@ -1,0 +1,111 @@
+@baseUrl = http://localhost:3000
+
+# 1. Lancez « Se connecter »
+# 2. Copiez le token reçu dans la variable ci-dessous
+@token = COLLEZ_VOTRE_JETON_ICI
+
+###############################################
+# Authentification
+###############################################
+
+### S'inscrire (5 crédits offerts)
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "username": "Alex",
+  "email": "alex@emojidex.fr",
+  "password": "secret1"
+}
+
+### Se connecter (compte de démonstration : Camille)
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "demo@emojidex.fr",
+  "password": "demo1234"
+}
+
+### Mon profil (crédits, progression, boosters à ouvrir)
+GET {{baseUrl}}/auth/me
+Authorization: Bearer {{token}}
+
+### Se déconnecter
+POST {{baseUrl}}/auth/logout
+Authorization: Bearer {{token}}
+
+###############################################
+# Catalogue (public)
+###############################################
+
+### Les types d'emojis
+GET {{baseUrl}}/types
+
+### Les raretés et leurs chances
+GET {{baseUrl}}/rarities
+
+###############################################
+# Collection
+###############################################
+
+### Tous les emojis (avec owned)
+GET {{baseUrl}}/emojis
+Authorization: Bearer {{token}}
+
+### Les animaux que je n'ai pas encore
+GET {{baseUrl}}/emojis?type=animaux&owned=false
+Authorization: Bearer {{token}}
+
+### Les légendaires
+GET {{baseUrl}}/emojis?rarity=legendaire
+Authorization: Bearer {{token}}
+
+###############################################
+# Jeu
+###############################################
+
+### Jouer pierre
+POST {{baseUrl}}/game/play
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "move": "pierre"
+}
+
+###############################################
+# Boosters
+###############################################
+
+### Mes boosters non ouverts
+GET {{baseUrl}}/boosters
+Authorization: Bearer {{token}}
+
+### Acheter un booster (5 crédits)
+POST {{baseUrl}}/boosters
+Authorization: Bearer {{token}}
+
+### Ouvrir le booster 1 (Camille en a un au départ)
+POST {{baseUrl}}/boosters/1/open
+Authorization: Bearer {{token}}
+
+###############################################
+# Erreurs
+###############################################
+
+### 401 : collection sans jeton
+GET {{baseUrl}}/emojis
+
+### 409 : ouvrir deux fois le même booster
+POST {{baseUrl}}/boosters/1/open
+Authorization: Bearer {{token}}
+
+### 400 : coup invalide
+POST {{baseUrl}}/game/play
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "move": "puits"
+}

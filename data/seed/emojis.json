@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "char": "😀",
+    "name": "Grand sourire",
+    "type": "visages",
+    "rarity": "commune"
+  },
+  {
+    "id": 2,
+    "char": "😂",
+    "name": "Mort de rire",
+    "type": "visages",
+    "rarity": "commune"
+  },
+  {
+    "id": 3,
+    "char": "😊",
+    "name": "Sourire timide",
+    "type": "visages",
+    "rarity": "commune"
+  },
+  {
+    "id": 4,
+    "char": "😴",
+    "name": "Endormi",
+    "type": "visages",
+    "rarity": "commune"
+  },
+  {
+    "id": 5,
+    "char": "🤔",
+    "name": "Pensif",
+    "type": "visages",
+    "rarity": "commune"
+  },
+  {
+    "id": 6,
+    "char": "😎",
+    "name": "Lunettes de soleil",
+    "type": "visages",
+    "rarity": "rare"
+  },
+  {
+    "id": 7,
+    "char": "🥳",
+    "name": "Fêtard",
+    "type": "visages",
+    "rarity": "rare"
+  },
+  {
+    "id": 8,
+    "char": "😱",
+    "name": "Terrifié",
+    "type": "visages",
+    "rarity": "rare"
+  },
+  {
+    "id": 9,
+    "char": "🤯",
+    "name": "Tête qui explose",
+    "type": "visages",
+    "rarity": "epique"
+  },
+  {
+    "id": 10,
+    "char": "🤖",
+    "name": "Robot",
+    "type": "visages",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 11,
+    "char": "🐶",
+    "name": "Chien",
+    "type": "animaux",
+    "rarity": "commune"
+  },
+  {
+    "id": 12,
+    "char": "🐱",
+    "name": "Chat",
+    "type": "animaux",
+    "rarity": "commune"
+  },
+  {
+    "id": 13,
+    "char": "🐭",
+    "name": "Souris",
+    "type": "animaux",
+    "rarity": "commune"
+  },
+  {
+    "id": 14,
+    "char": "🐰",
+    "name": "Lapin",
+    "type": "animaux",
+    "rarity": "commune"
+  },
+  {
+    "id": 15,
+    "char": "🐸",
+    "name": "Grenouille",
+    "type": "animaux",
+    "rarity": "commune"
+  },
+  {
+    "id": 16,
+    "char": "🦊",
+    "name": "Renard",
+    "type": "animaux",
+    "rarity": "rare"
+  },
+  {
+    "id": 17,
+    "char": "🐼",
+    "name": "Panda",
+    "type": "animaux",
+    "rarity": "rare"
+  },
+  {
+    "id": 18,
+    "char": "🐧",
+    "name": "Manchot",
+    "type": "animaux",
+    "rarity": "rare"
+  },
+  {
+    "id": 19,
+    "char": "🦄",
+    "name": "Licorne",
+    "type": "animaux",
+    "rarity": "epique"
+  },
+  {
+    "id": 20,
+    "char": "🐉",
+    "name": "Dragon",
+    "type": "animaux",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 21,
+    "char": "🍎",
+    "name": "Pomme",
+    "type": "nourriture",
+    "rarity": "commune"
+  },
+  {
+    "id": 22,
+    "char": "🍌",
+    "name": "Banane",
+    "type": "nourriture",
+    "rarity": "commune"
+  },
+  {
+    "id": 23,
+    "char": "🥕",
+    "name": "Carotte",
+    "type": "nourriture",
+    "rarity": "commune"
+  },
+  {
+    "id": 24,
+    "char": "🍞",
+    "name": "Pain",
+    "type": "nourriture",
+    "rarity": "commune"
+  },
+  {
+    "id": 25,
+    "char": "🧀",
+    "name": "Fromage",
+    "type": "nourriture",
+    "rarity": "commune"
+  },
+  {
+    "id": 26,
+    "char": "🍕",
+    "name": "Pizza",
+    "type": "nourriture",
+    "rarity": "rare"
+  },
+  {
+    "id": 27,
+    "char": "🍔",
+    "name": "Burger",
+    "type": "nourriture",
+    "rarity": "rare"
+  },
+  {
+    "id": 28,
+    "char": "🍣",
+    "name": "Sushi",
+    "type": "nourriture",
+    "rarity": "rare"
+  },
+  {
+    "id": 29,
+    "char": "🎂",
+    "name": "Gâteau d'anniversaire",
+    "type": "nourriture",
+    "rarity": "epique"
+  },
+  {
+    "id": 30,
+    "char": "🥐",
+    "name": "Croissant",
+    "type": "nourriture",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 31,
+    "char": "🌳",
+    "name": "Arbre",
+    "type": "nature",
+    "rarity": "commune"
+  },
+  {
+    "id": 32,
+    "char": "🌸",
+    "name": "Fleur de cerisier",
+    "type": "nature",
+    "rarity": "commune"
+  },
+  {
+    "id": 33,
+    "char": "🌵",
+    "name": "Cactus",
+    "type": "nature",
+    "rarity": "commune"
+  },
+  {
+    "id": 34,
+    "char": "🍄",
+    "name": "Champignon",
+    "type": "nature",
+    "rarity": "commune"
+  },
+  {
+    "id": 35,
+    "char": "🌻",
+    "name": "Tournesol",
+    "type": "nature",
+    "rarity": "commune"
+  },
+  {
+    "id": 36,
+    "char": "🌈",
+    "name": "Arc-en-ciel",
+    "type": "nature",
+    "rarity": "rare"
+  },
+  {
+    "id": 37,
+    "char": "🍀",
+    "name": "Trèfle à quatre feuilles",
+    "type": "nature",
+    "rarity": "rare"
+  },
+  {
+    "id": 38,
+    "char": "❄️",
+    "name": "Flocon de neige",
+    "type": "nature",
+    "rarity": "rare"
+  },
+  {
+    "id": 39,
+    "char": "🌋",
+    "name": "Volcan",
+    "type": "nature",
+    "rarity": "epique"
+  },
+  {
+    "id": 40,
+    "char": "☄️",
+    "name": "Comète",
+    "type": "nature",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 41,
+    "char": "✏️",
+    "name": "Crayon",
+    "type": "objets",
+    "rarity": "commune"
+  },
+  {
+    "id": 42,
+    "char": "📚",
+    "name": "Livres",
+    "type": "objets",
+    "rarity": "commune"
+  },
+  {
+    "id": 43,
+    "char": "🔑",
+    "name": "Clé",
+    "type": "objets",
+    "rarity": "commune"
+  },
+  {
+    "id": 44,
+    "char": "💡",
+    "name": "Ampoule",
+    "type": "objets",
+    "rarity": "commune"
+  },
+  {
+    "id": 45,
+    "char": "☂️",
+    "name": "Parapluie",
+    "type": "objets",
+    "rarity": "commune"
+  },
+  {
+    "id": 46,
+    "char": "🎧",
+    "name": "Casque audio",
+    "type": "objets",
+    "rarity": "rare"
+  },
+  {
+    "id": 47,
+    "char": "📷",
+    "name": "Appareil photo",
+    "type": "objets",
+    "rarity": "rare"
+  },
+  {
+    "id": 48,
+    "char": "🔭",
+    "name": "Télescope",
+    "type": "objets",
+    "rarity": "rare"
+  },
+  {
+    "id": 49,
+    "char": "💎",
+    "name": "Diamant",
+    "type": "objets",
+    "rarity": "epique"
+  },
+  {
+    "id": 50,
+    "char": "👑",
+    "name": "Couronne",
+    "type": "objets",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 51,
+    "char": "⚽",
+    "name": "Ballon de foot",
+    "type": "activites",
+    "rarity": "commune"
+  },
+  {
+    "id": 52,
+    "char": "🏀",
+    "name": "Ballon de basket",
+    "type": "activites",
+    "rarity": "commune"
+  },
+  {
+    "id": 53,
+    "char": "🎨",
+    "name": "Palette de peinture",
+    "type": "activites",
+    "rarity": "commune"
+  },
+  {
+    "id": 54,
+    "char": "🎲",
+    "name": "Dé",
+    "type": "activites",
+    "rarity": "commune"
+  },
+  {
+    "id": 55,
+    "char": "🎸",
+    "name": "Guitare",
+    "type": "activites",
+    "rarity": "commune"
+  },
+  {
+    "id": 56,
+    "char": "🎮",
+    "name": "Manette de jeu",
+    "type": "activites",
+    "rarity": "rare"
+  },
+  {
+    "id": 57,
+    "char": "♟️",
+    "name": "Pion d'échecs",
+    "type": "activites",
+    "rarity": "rare"
+  },
+  {
+    "id": 58,
+    "char": "🎯",
+    "name": "Fléchettes",
+    "type": "activites",
+    "rarity": "rare"
+  },
+  {
+    "id": 59,
+    "char": "🎻",
+    "name": "Violon",
+    "type": "activites",
+    "rarity": "epique"
+  },
+  {
+    "id": 60,
+    "char": "🏆",
+    "name": "Trophée",
+    "type": "activites",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 61,
+    "char": "🚗",
+    "name": "Voiture",
+    "type": "voyages",
+    "rarity": "commune"
+  },
+  {
+    "id": 62,
+    "char": "🚲",
+    "name": "Vélo",
+    "type": "voyages",
+    "rarity": "commune"
+  },
+  {
+    "id": 63,
+    "char": "🚌",
+    "name": "Bus",
+    "type": "voyages",
+    "rarity": "commune"
+  },
+  {
+    "id": 64,
+    "char": "🚂",
+    "name": "Locomotive",
+    "type": "voyages",
+    "rarity": "commune"
+  },
+  {
+    "id": 65,
+    "char": "⛵",
+    "name": "Voilier",
+    "type": "voyages",
+    "rarity": "commune"
+  },
+  {
+    "id": 66,
+    "char": "✈️",
+    "name": "Avion",
+    "type": "voyages",
+    "rarity": "rare"
+  },
+  {
+    "id": 67,
+    "char": "🚁",
+    "name": "Hélicoptère",
+    "type": "voyages",
+    "rarity": "rare"
+  },
+  {
+    "id": 68,
+    "char": "🏰",
+    "name": "Château",
+    "type": "voyages",
+    "rarity": "rare"
+  },
+  {
+    "id": 69,
+    "char": "🚀",
+    "name": "Fusée",
+    "type": "voyages",
+    "rarity": "epique"
+  },
+  {
+    "id": 70,
+    "char": "🛸",
+    "name": "Soucoupe volante",
+    "type": "voyages",
+    "rarity": "legendaire"
+  },
+  {
+    "id": 71,
+    "char": "❤️",
+    "name": "Cœur",
+    "type": "symboles",
+    "rarity": "commune"
+  },
+  {
+    "id": 72,
+    "char": "✨",
+    "name": "Étincelles",
+    "type": "symboles",
+    "rarity": "commune"
+  },
+  {
+    "id": 73,
+    "char": "🔥",
+    "name": "Flamme",
+    "type": "symboles",
+    "rarity": "commune"
+  },
+  {
+    "id": 74,
+    "char": "💤",
+    "name": "Dodo",
+    "type": "symboles",
+    "rarity": "commune"
+  },
+  {
+    "id": 75,
+    "char": "🎵",
+    "name": "Note de musique",
+    "type": "symboles",
+    "rarity": "commune"
+  },
+  {
+    "id": 76,
+    "char": "⚡",
+    "name": "Éclair",
+    "type": "symboles",
+    "rarity": "rare"
+  },
+  {
+    "id": 77,
+    "char": "🌀",
+    "name": "Cyclone",
+    "type": "symboles",
+    "rarity": "rare"
+  },
+  {
+    "id": 78,
+    "char": "💯",
+    "name": "Cent points",
+    "type": "symboles",
+    "rarity": "rare"
+  },
+  {
+    "id": 79,
+    "char": "♾️",
+    "name": "Infini",
+    "type": "symboles",
+    "rarity": "epique"
+  },
+  {
+    "id": 80,
+    "char": "🔮",
+    "name": "Boule de cristal",
+    "type": "symboles",
+    "rarity": "legendaire"
+  }
+]
